@@ -39,20 +39,20 @@ export default function Hero() {
 
             <div className="flex flex-wrap gap-4">
               <motion.a
-                href="#contact"
+                href="#projects"
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 className="px-10 py-4 bg-cyan-500 hover:bg-cyan-400 text-[#05070a] font-bold rounded-2xl transition-all shadow-lg shadow-cyan-500/20 text-sm uppercase tracking-widest"
               >
-                Contact Me
+                View Projects
               </motion.a>
               <motion.a
-                href="#projects"
+                href="#contact"
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 className="px-10 py-4 bg-white/5 border border-white/10 text-white font-bold rounded-2xl hover:bg-white/10 transition-all text-sm uppercase tracking-widest"
               >
-                Selected Works
+                Contact Me
               </motion.a>
             </div>
           </div>
